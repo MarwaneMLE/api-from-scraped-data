@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "articleapi_database",
+            "database": "${workspaceFolder:api-from-scraped-data}/db.sqlite3"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
